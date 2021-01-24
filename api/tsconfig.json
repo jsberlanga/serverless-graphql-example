@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "target": "ES5",
+    "strict": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["**/node_modules/**","**/dist/**"]
+}
